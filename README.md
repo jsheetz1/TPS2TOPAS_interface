@@ -77,9 +77,9 @@ This information can be input to TPS2TOPAS in two modes: via (1) input parameter
 #### Mode 1: input file parameter.
 In this mode, an input text file with the user input informations is required. This file should contain 11 rows, each one with the information described above in the same order.
 
-To run this mode, type:
+To run this mode, type (double hyphen):
 ```
- python3 TPS2TOPAS.py -m inputfile TheNameOfYouInputFile.txt
+ python3 TPS2TOPAS.py --m inputfile TheNameOfYouInputFile.txt
 ```
 
 > [!WARNING]
@@ -92,7 +92,7 @@ To run this mode, type:
 
 To run this mode, type:
 ```
- python3 TPS2TOPAS.py -m gui
+ python3 TPS2TOPAS.py --m gui
 ```
 
 A GUI will pop up and you will be able to select the required parameter from _Browse_ buttons, _dropdown menus_, and _text entries_ (see the figure below). To run the script, click on _Generate TOPAS files_.
