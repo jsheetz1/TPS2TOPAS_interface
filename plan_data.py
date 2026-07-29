@@ -295,7 +295,9 @@ def RetrievePlanData(DATA):
                         TsMLCX2[key].append(MLCX2[key])
                     
                     dt += CONSTANTS.dt 
-    
+        else:
+            print("--- WARNING: Beam %s has 0 MU and will be skipped." %beam.BeamName) 
+            
     phspChunk = int(CONSTANTS.primaryHistories / len(TsWeights))
     for i in range(len(TsWeights)):
         TsPrimaries.append(phspChunk)
