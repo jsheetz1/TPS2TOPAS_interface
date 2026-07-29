@@ -1,4 +1,3 @@
-
 Test
 windows
 C:/DICOM_dir_file_path/
